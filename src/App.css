@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(#1c384d, #497087);
+}
+
+.container {
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  padding-top: 5%;
+  
+}
+
+.weather-card {
+  min-width: 35%;
+  margin: auto;
+  font-size: 1.5rem;
+  font-family: 'Cabin', sans-serif;
+  color: rgb(191, 191, 214);
+}
+
+form {
+  margin: 10px;
+}
+
+.refresh {
+  margin-left: 10px
+}
+
+#text-input {
+  background-color: rgb(211, 211, 211);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#search-button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.title {
+  font-size: 1.7rem;
+}
+
+#temperature {
+  font-size: 5rem;
+}
